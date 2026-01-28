@@ -1,0 +1,52 @@
+/* Body styles - sets up the page background and font */
+body {
+    background-color: lightblue;  /* Sets the background to light blue */
+    text-align: center;           /* Centers all text content horizontally */
+    font-family: Arial, sans-serif; /* Uses Arial font, falls back to generic sans-serif */
+}
+
+/* Main container - creates the card appearance */
+.card {
+    border: 2px solid darkblue;   /* Adds a 2px dark blue border around the card */
+    padding: 40px;                /* Adds 40px space inside the card around all content */
+    width: 500px;                 /* Sets the card width to 500 pixels */
+    margin: 50px auto;            /* Adds 50px margin on top/bottom and centers horizontally */
+    background-color: white;      /* Sets the card background to white */
+    max-width: 600px;            /* Ensures the card doesn't exceed 600 pixels on larger screens */
+}
+
+/* Image styling - makes the profile image fit nicely in the card */
+.card img {
+    width: 200px;                 /* Sets image width to 200 pixels */
+    height: 200px;                /* Sets image height to 200 pixels */
+    border-radius: 10px;          /* Adds rounded corners to the image */
+}
+
+/* Main heading - makes the name stand out */
+h1 {
+    font-size: 48px;              /* Makes the heading large at 48 pixels */
+    color: darkblue;              /* Colors the heading dark blue */
+}
+
+/* Subheading - makes the title text prominent */
+h2 {
+    font-size: 32px;              /* Makes the subheading medium-large at 32 pixels */
+    color: slategrey;             /* Colors the subheading slate grey */
+}
+
+/* Paragraph text - improves readability of the description */
+p {
+    font-size: 18px;              /* Sets paragraph text to 18 pixels for easy reading */
+    line-height: 1.6;             /* Adds extra space between lines for better readability */
+}
+
+/* List styling - removes bullets and adds spacing */
+ul {
+    list-style: none;             /* Removes the default bullet points */
+    padding: 0;                   /* Removes default padding */
+}
+
+/* List item styling - adds space between items */
+li {
+    margin: 10px 0;               /* Adds 10px vertical space between list items */
+}
